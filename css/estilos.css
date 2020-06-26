@@ -1,0 +1,196 @@
+.gm{
+    background-color: #F4E1EE;
+    font-family: 'Lexend Tera', sans-serif;
+}
+/*EMPIEZA NAVAR*/
+.bg{
+    background-color: black;
+    min-height: 100px;
+    box-shadow: 1px 2px 0px 4px rgb(198, 182, 182 );
+}
+.a{
+    color: white;
+    padding: 30px;
+    font-size: 17px;
+}
+.icon{
+    color: white;
+    font-size: 35px;
+}
+.nav-link:hover{
+    color: #e0aecf;
+}
+.logo{
+    width: 150px;
+}
+/* FINALIZO NAVAR*/
+
+/*EMPIEZO SESIÓN ms*/
+.ms{
+    padding: 80px 50px 80px 50px ;
+}
+.titulo{
+    font-size: 25px;
+    color: black;
+    margin: 15px;
+}
+.parrafo{
+    font-size: 17px;
+    color: black;
+    margin: 8px;
+    text-align: justify;
+}
+.gh{
+    width: 110%;
+    border-radius: 50px;
+}
+.tiempo{
+    animation-delay: 1s;
+}
+/*TERMINADA SESIÓN ms*/
+
+/*EMPIEZA SESIÓN cp*/
+.cp{
+    padding: 70px 40px 70px 40px ;
+}
+.titulo2{
+    font-size: 25px;
+    color: black;
+    margin: 15px;
+} 
+.parrafo2{
+    font-size: 17px;
+    color: black;
+    margin: 8px;
+    text-align: justify;
+}
+/* TRMINADA SESIÓN cp*/
+
+/* EMPIEZA SESIÓN s1*/
+.s1{
+    padding: 80px 50px 80px 50px ;
+    background-color: #E0AECF;
+}
+.imagen1{
+    width: 50px;
+}
+.h3{
+    text-align: center;
+}
+.h4{
+    margin: 10px;
+}
+.p1{
+    margin: 8px;
+}
+.icon1{
+    font-size: 50px;
+    color: lightgoldenrodyellow;
+}
+/*TERMINA SESIÓN s1*/
+
+/*footer*/
+#footer{
+    padding: 80px 0px;
+    text-align: center;
+    color: white;
+}
+.bga{
+    background-color: black;
+}
+#footer-a2:hover{
+    color: #e0aecf;
+}
+.a2{
+    color:white;
+    font-size: 35px;  
+}
+#footer .list-inline{
+    padding: 100px 20px ;
+    text-align: center;
+    display: inline;
+}
+/* termina footer*/
+
+/*Galeria trabajos*/
+.galeria{
+    font-family: 'open sans';
+}
+.galeria h5{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+}
+.linea{
+    border-top: 5px solid rgb(198, 182, 182 );
+}
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px grey (0,0,0, 75);
+    margin-bottom: 40px;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: grey ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;  
+    transition: .5s ease;
+}
+.overlay h6{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-45%, -45%);
+}
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
+@media (max-width: 1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+@media (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+@media (max-width:450px){
+    h5{
+        font-size: 22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+/*galeria trabajos terminados*/
